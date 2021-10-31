@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/InvitationHomes-FrontEnd/static/css/main.8234cddb.chunk.css",
+    "main.js": "/InvitationHomes-FrontEnd/static/js/main.2a81c67d.chunk.js",
+    "main.js.map": "/InvitationHomes-FrontEnd/static/js/main.2a81c67d.chunk.js.map",
+    "runtime-main.js": "/InvitationHomes-FrontEnd/static/js/runtime-main.2e58b375.js",
+    "runtime-main.js.map": "/InvitationHomes-FrontEnd/static/js/runtime-main.2e58b375.js.map",
+    "static/js/2.36916c7e.chunk.js": "/InvitationHomes-FrontEnd/static/js/2.36916c7e.chunk.js",
+    "static/js/2.36916c7e.chunk.js.map": "/InvitationHomes-FrontEnd/static/js/2.36916c7e.chunk.js.map",
+    "index.html": "/InvitationHomes-FrontEnd/index.html",
+    "static/css/main.8234cddb.chunk.css.map": "/InvitationHomes-FrontEnd/static/css/main.8234cddb.chunk.css.map",
+    "static/js/2.36916c7e.chunk.js.LICENSE.txt": "/InvitationHomes-FrontEnd/static/js/2.36916c7e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2e58b375.js",
+    "static/js/2.36916c7e.chunk.js",
+    "static/css/main.8234cddb.chunk.css",
+    "static/js/main.2a81c67d.chunk.js"
+  ]
+}

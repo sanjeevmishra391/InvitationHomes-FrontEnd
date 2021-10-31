@@ -1,0 +1,50 @@
+.auth {
+    display: flex;
+    justify-content: center;
+}
+
+.auth .container {
+    border-radius: 11px;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 400px;
+}
+
+.welcome h2 {
+    color: #277ab6;
+    margin: 5px auto;
+}
+
+.welcome p {
+    color: gray;
+    margin: 5px auto;
+}
+
+.auth-form-container {
+    margin: 10px auto;
+    width: 100%;
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-wrapper {
+    margin: 15px auto;
+    width: 100%;
+}
+
+.auth-form .btn-wrapper {
+    margin: 20px 0px 0px;
+    width: 100%;
+}
+
+.link-to-auth {
+    display: flex;
+    justify-content: flex-end;
+}

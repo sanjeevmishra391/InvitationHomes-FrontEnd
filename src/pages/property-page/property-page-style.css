@@ -1,0 +1,31 @@
+.property .container {
+    padding: 20px;
+}
+
+.property-block {
+    border-radius: 11px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.property-img {
+    border-radius: 11px;
+    width: 40%;
+    min-width: 300px;
+}
+
+.property-img img {
+    width: 100%;
+    border-radius: 11px;
+}
+
+.property-detail {
+    width: 50%;
+    padding: 10px 10px 10px max(2%, 10px);
+}
+
+.btn-wrapper {
+    margin: 10px auto;
+}

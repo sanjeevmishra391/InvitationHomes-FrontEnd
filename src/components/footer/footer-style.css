@@ -1,0 +1,43 @@
+.footer-container {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-menu .menu-item {
+    padding: 0px 10px;
+}
+.footer-menu .menu-item a {
+    color: grey;
+    font-size: 1.1rem;
+}
+
+.footer-menu .menu-item a:hover {
+    color: black;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.social-icons .social {
+    padding: 0px 10px;
+}
+
+.social-icons .social svg {
+    color: grey;
+    width: 30px; 
+    height: 30px;
+}
+
+.social-icons .social svg:hover {
+    color: black;
+}

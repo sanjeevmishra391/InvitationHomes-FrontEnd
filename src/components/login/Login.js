@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link, useHistory } from 'react-router-dom';
-import './sign-in-style.css'
+import './login-style.css'
 import { TextField, Button } from '@mui/material';
 
 const loginUser = (credentials) => {
@@ -12,7 +12,9 @@ const loginUser = (credentials) => {
         },
         body: JSON.stringify(credentials)
     })
-    .then((res) => res.json())
+    .then((res) => {
+        return res.json()
+    })
     .catch(err => err);
 }
 
@@ -24,9 +26,12 @@ const Login = (props) => {
     const handleSubmit = async event => {
         event.preventDefault();
         const data = await loginUser({email: email, password: password});
-        console.log(data);
-        props.handleUser(data);
-        history.push('/');
+        if(data.message) {
+            console.log("Incorrect credentials")
+        } else {
+            props.handleUser(data);
+            history.push('/');
+        }
     }
 
     return (

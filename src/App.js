@@ -33,7 +33,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <HashRouter basename="/">
+      <HashRouter basename="InvitationHomes-FrontEnd">
         <div className="App">
           <Header currentUser={this.state.currentUser} />
           <Switch>

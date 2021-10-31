@@ -1,6 +1,6 @@
 import './App.css';
 import * as React from 'react';
-import { Switch, Route, HashRouter } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import Header from './components/header/Header';
 import HomePage from './pages/home-page/HomePage';
 import AuthPage from './pages/auth-page/AuthPage';
@@ -33,7 +33,6 @@ class App extends React.Component {
 
   render() {
     return (
-      <HashRouter basename="InvitationHomes-FrontEnd">
         <div className="App">
           <Header currentUser={this.state.currentUser} />
           <Switch>
@@ -53,7 +52,6 @@ class App extends React.Component {
           </Switch>
           <Footer />
         </div>
-      </HashRouter>
     );
   }
 }

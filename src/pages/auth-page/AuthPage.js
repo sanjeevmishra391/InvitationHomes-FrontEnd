@@ -1,15 +1,12 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Login from '../../components/sign-in/SignIn';
 
-class AuthPage extends Component {
-
-    render() {
-        return (
-            <div className='auth'>
-                <Login handleUser={this.props.handleUser} />
-            </div>
-        )
-    }
+const AuthPage = (props) => {
+    return (
+        <div className='auth'>
+            <Login handleUser={props.handleUser} />
+        </div>
+    )
 }
 
 export default AuthPage;

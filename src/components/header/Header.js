@@ -86,7 +86,7 @@ class Header extends React.Component {
                             />
                         </form>
                         <form className='city-form shadow'>
-                            <select name="city" id="city" className='shadow' onChange={this.handleSelect}>
+                            <select name="city" id="city" className='shadow' onChange={this.handleSelect} disabled>
                                 {
                                     cities.map((city) => {
                                         return (

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 import './sign-in-style.css'
 import { TextField, Button } from '@mui/material';
 
@@ -19,12 +19,14 @@ const loginUser = (credentials) => {
 const Login = (props) => {
     const [email, UpdateEmail] = useState('');
     const [password, UpdatePassword] = useState('')
+    const history = useHistory();
 
     const handleSubmit = async event => {
         event.preventDefault();
         const data = await loginUser({email: email, password: password});
         console.log(data);
         props.handleUser(data);
+        history.push('/');
     }
 
     return (
